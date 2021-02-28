@@ -6,7 +6,7 @@ namespace Core.Utilities.Security.JWT
 {
     public class AccessToken
     {
-        public string Toke { get; set; }
+        public string Token { get; set; }
         public DateTime Expiration { get; set; }
     }
 }
